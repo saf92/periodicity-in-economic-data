@@ -2,7 +2,7 @@
 
 Python3 code that 
 
-1) makes UK money supply and GDP growth data stationary by detrending the data with decision tree regression. 
+1) makes UK money supply and GDP growth data stationary by detrending the data with decision tree regression. Standard mean squared error technique used to prevent overfitting. This is highly dependendant on training and testing set chosen.
 
 2) finds the periodogram of the detrended data, indicating a significant frequency of 6 corresponding to a period of roughly 9 years for money supply (M4) data. The frequency results were less obvious for GDP growth but indication of higher frequencies and smaller periods.
 
